@@ -29,7 +29,7 @@ public class HS_Record_Type_DataValidation_TS003
 		  try 
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu where Record_Type='Debt_Cancel'"); 
 			  w = Workbook.getWorkbook(new File("C:\\Artha\\TransToPartner_MDU_11042015_002020.xls"));
@@ -72,7 +72,7 @@ public class HS_Record_Type_DataValidation_TS003
 		  try 
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu where Record_Type='Debt_Delinquent_Letter'"); 
 			  w = Workbook.getWorkbook(new File("C:\\Artha\\TransToPartner_MDU_11042015_002020.xls"));
@@ -114,7 +114,7 @@ public class HS_Record_Type_DataValidation_TS003
 	  try 
 	  {
 		  Class.forName("com.mysql.jdbc.Driver");
-		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 		  Statement stmt=con.createStatement();  
 		  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu where Record_Type='HS_DownGrade'"); 
 		  w = Workbook.getWorkbook(new File("C:\\Artha\\TransToPartner_MDU_11042015_002020.xls"));
@@ -156,7 +156,7 @@ public class HS_Record_Type_DataValidation_TS003
 	  try 
 	  {
 		  Class.forName("com.mysql.jdbc.Driver");
-		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 		  Statement stmt=con.createStatement();  
 		  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu where Record_Type='HS_Price_Increase'"); 
 		  w = Workbook.getWorkbook(new File("C:\\Artha\\TransToPartner_MDU_11042015_002020.xls"));
@@ -198,7 +198,7 @@ public class HS_Record_Type_DataValidation_TS003
 	  try 
 	  {
 		  Class.forName("com.mysql.jdbc.Driver");
-		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+		  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 		  Statement stmt=con.createStatement();  
 		  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu where Record_Type=''"); 
 		  w = Workbook.getWorkbook(new File("C:\\Artha\\TransToPartner_MDU_11042015_002020.xls"));

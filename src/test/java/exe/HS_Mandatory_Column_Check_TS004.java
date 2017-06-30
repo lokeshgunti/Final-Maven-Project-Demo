@@ -20,7 +20,7 @@ public class HS_Mandatory_Column_Check_TS004
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_City is null or Premise_City=' ' or Premise_City=''"); 
 			  while (rs.next()) 
@@ -49,7 +49,7 @@ public class HS_Mandatory_Column_Check_TS004
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_State is null or Premise_State=' ' or Premise_State=''"); 
 			  while (rs.next()) 
@@ -78,7 +78,7 @@ public class HS_Mandatory_Column_Check_TS004
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Mailing_City is null or Mailing_City=' ' or Mailing_City=''"); 
 			  while (rs.next()) 
@@ -107,7 +107,7 @@ public class HS_Mandatory_Column_Check_TS004
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where length(Partner_Account_Number)<10 or Partner_Account_Number is null or Partner_Account_Number=' ' or Partner_Account_Number=''"); 
 			  while (rs.next()) 

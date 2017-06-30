@@ -20,7 +20,7 @@ public class HS_Premise_Name_Check_TS007
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_First_Name is null"); 
 			  while (rs.next()) 
@@ -49,7 +49,7 @@ public class HS_Premise_Name_Check_TS007
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_Last_Name is null"); 
 			  while (rs.next()) 

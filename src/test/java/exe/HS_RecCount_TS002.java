@@ -38,7 +38,7 @@ public class HS_RecCount_TS002
 			  
 			  w.close();
 			  Class.forName("com.mysql.jdbc.Driver");  
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("select * from transtopartner_mdu"); 
 		// Database Level Columns Count

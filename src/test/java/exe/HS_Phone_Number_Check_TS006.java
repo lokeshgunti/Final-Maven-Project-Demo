@@ -20,7 +20,7 @@ public class HS_Phone_Number_Check_TS006
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_Home_Phone_Number is null or length(Premise_Home_Phone_Number)=0 or Premise_Home_Phone_Number=' '"); 
 			  while (rs.next()) 
@@ -49,7 +49,7 @@ public class HS_Phone_Number_Check_TS006
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where length(Premise_Home_Phone_Number)<10"); 
 			  while (rs.next()) 
@@ -78,7 +78,7 @@ public class HS_Phone_Number_Check_TS006
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where length(Premise_Work_Phone_Number)<10"); 
 			  while (rs.next()) 
@@ -107,7 +107,7 @@ public class HS_Phone_Number_Check_TS006
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where length(Premise_Work_Phone_Number)<10"); 
 			  while (rs.next()) 
@@ -136,7 +136,7 @@ public class HS_Phone_Number_Check_TS006
 		  try
 		  {
 			  Class.forName("com.mysql.jdbc.Driver");
-			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3307/homeserve","root","mysql");   
+			  Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/homeserve","root","mysql");   
 			  Statement stmt=con.createStatement();  
 			  ResultSet rs=stmt.executeQuery("SELECT * FROM homeserve.transtopartner_mdu where Premise_Work_Phone_Number is null or length(Premise_Work_Phone_Number)=0 or Premise_Work_Phone_Number=' '"); 
 			  while (rs.next()) 
