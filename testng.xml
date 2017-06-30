@@ -10,7 +10,6 @@
       <class name="exe.HS_Premise_Name_Check_TS007"/>
       <class name="exe.HS_RecCount_TS002"/>
       <class name="exe.HS_Mandatory_Column_Check_TS004"/>
-      <class name="exe.NewTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,44 +3,12 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="exe.HS_Premise_Name_Check_TS007">
-        <methods>
-          <include name="HS_Premise_First_Name_Check_TC018"/>
-          <include name="HS_Premise_Last_Name_Check_TC019"/>
-        </methods>
-      </class> <!-- exe.HS_Premise_Name_Check_TS007 -->
-      <class name="exe.HS_RecCount_TS002">
-        <methods>
-          <include name="HS_FileLevelRecCount_TC003"/>
-        </methods>
-      </class> <!-- exe.HS_RecCount_TS002 -->
-      <class name="exe.HS_ConnCheck_TS001">
-        <methods>
-          <include name="HS_DBConnCheck_TC001"/>
-          <include name="HS_InputFileExistance_TC002"/>
-        </methods>
-      </class> <!-- exe.HS_ConnCheck_TS001 -->
       <class name="exe.HS_Contract_SchedRef_Check_TS005">
         <methods>
           <include name="HS_Contract_SchedRef_TC012"/>
           <include name="HS_Contract_SchedRef_TC013"/>
         </methods>
       </class> <!-- exe.HS_Contract_SchedRef_Check_TS005 -->
-      <class name="exe.NewTest">
-        <methods>
-          <include name="beforeTest"/>
-          <include name="testEasy"/>
-        </methods>
-      </class> <!-- exe.NewTest -->
-      <class name="exe.HS_Record_Type_DataValidation_TS003">
-        <methods>
-          <include name="HS_Record_Type_AS_NULL_TC008"/>
-          <include name="HS_Record_Type_AS_Debt_Cancel_TC004"/>
-          <include name="HS_Record_Type_AS_Debt_Delinquent_Letter_TC005"/>
-          <include name="HS_Record_Type_AS_HS_DownGrade_TC006"/>
-          <include name="HS_Record_Type_AS_HS_Price_Increase_TC007"/>
-        </methods>
-      </class> <!-- exe.HS_Record_Type_DataValidation_TS003 -->
       <class name="exe.HS_Mandatory_Column_Check_TS004">
         <methods>
           <include name="HS_Premise_City_Mandatory_Check_TC008"/>
@@ -49,15 +17,29 @@
           <include name="HS_Premise_State_Mandatory_Check_TC009"/>
         </methods>
       </class> <!-- exe.HS_Mandatory_Column_Check_TS004 -->
+      <class name="exe.HS_RecCount_TS002">
+        <methods>
+          <include name="HS_FileLevelRecCount_TC003"/>
+        </methods>
+      </class> <!-- exe.HS_RecCount_TS002 -->
       <class name="exe.HS_Phone_Number_Check_TS006">
         <methods>
-          <include name="HS_Premise_Home_Phone_Check_TC013"/>
           <include name="HS_Premise_Home_Phone_Check_TC014"/>
           <include name="HS_Premise_Work_Phone_Check_TC016"/>
           <include name="HS_Premise_Work_Phone_Check_TC015"/>
-          <include name="HS_Premise_Work_Phone_Check_TC017"/>
         </methods>
       </class> <!-- exe.HS_Phone_Number_Check_TS006 -->
+      <class name="exe.HS_Premise_Name_Check_TS007">
+        <methods>
+          <include name="HS_Premise_First_Name_Check_TC018"/>
+          <include name="HS_Premise_Last_Name_Check_TC019"/>
+        </methods>
+      </class> <!-- exe.HS_Premise_Name_Check_TS007 -->
+      <class name="exe.HS_Record_Type_DataValidation_TS003">
+        <methods>
+          <include name="HS_Record_Type_AS_HS_DownGrade_TC006"/>
+        </methods>
+      </class> <!-- exe.HS_Record_Type_DataValidation_TS003 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
