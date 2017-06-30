@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="exe.Mandatory_Column_Check_004">
+        <methods>
+          <include name="Premise_State_Mandatory_Check"/>
+          <include name="Mailing_City_Mandatory_Check"/>
+          <include name="Premise_City_Mandatory_Check"/>
+          <include name="Partner_Account_Number_Mandatory_And_Length_Check"/>
+        </methods>
+      </class> <!-- exe.Mandatory_Column_Check_004 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

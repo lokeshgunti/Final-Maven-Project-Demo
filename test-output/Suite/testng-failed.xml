@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="exe.HS_Premise_Name_Check_TS007">
+        <methods>
+          <include name="HS_Premise_First_Name_Check_TC018"/>
+          <include name="HS_Premise_Last_Name_Check_TC019"/>
+        </methods>
+      </class> <!-- exe.HS_Premise_Name_Check_TS007 -->
+      <class name="exe.HS_RecCount_TS002">
+        <methods>
+          <include name="HS_FileLevelRecCount_TC003"/>
+        </methods>
+      </class> <!-- exe.HS_RecCount_TS002 -->
+      <class name="exe.HS_Mandatory_Column_Check_TS004">
+        <methods>
+          <include name="HS_Premise_City_Mandatory_Check_TC008"/>
+          <include name="HS_Partner_Account_Number_Mandatory_And_Length_Check_TC011"/>
+          <include name="HS_Mailing_City_Mandatory_Check_TC010"/>
+          <include name="HS_Premise_State_Mandatory_Check_TC009"/>
+        </methods>
+      </class> <!-- exe.HS_Mandatory_Column_Check_TS004 -->
+      <class name="exe.HS_Record_Type_DataValidation_TS003">
+        <methods>
+          <include name="HS_Record_Type_AS_HS_DownGrade_TC006"/>
+        </methods>
+      </class> <!-- exe.HS_Record_Type_DataValidation_TS003 -->
+      <class name="exe.HS_Contract_SchedRef_Check_TS005">
+        <methods>
+          <include name="HS_Contract_SchedRef_TC012"/>
+          <include name="HS_Contract_SchedRef_TC013"/>
+        </methods>
+      </class> <!-- exe.HS_Contract_SchedRef_Check_TS005 -->
+      <class name="exe.HS_Phone_Number_Check_TS006">
+        <methods>
+          <include name="HS_Premise_Home_Phone_Check_TC014"/>
+          <include name="HS_Premise_Work_Phone_Check_TC016"/>
+          <include name="HS_Premise_Work_Phone_Check_TC015"/>
+        </methods>
+      </class> <!-- exe.HS_Phone_Number_Check_TS006 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
